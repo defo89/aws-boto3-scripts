@@ -1,3 +1,4 @@
+#!/usr/bin/python
 '''
 This script starts all instances with a specific tag.
 '''

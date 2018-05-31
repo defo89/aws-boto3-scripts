@@ -1,3 +1,4 @@
+#!/usr/bin/python
 '''
 This script stops all instances with a specific tag.
 '''
