@@ -1,3 +1,7 @@
+'''
+This script stops all instances with a specific tag.
+'''
+
 import boto3
 
 def instances_find(name, value):
@@ -34,6 +38,8 @@ tag_value = 'dev'
 ec2_resource = boto3.resource('ec2')
 ec2_client = boto3.client('ec2')
 
+# find instances
 ec2_list = instances_find(tag_name, tag_value)
+# stop instances
 ec2_stop = instances_stop(ec2_list)
 print('stopped instances: ' + str(ec2_list))
