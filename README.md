@@ -5,7 +5,8 @@ Python scripts for AWS using boto3 SDK
 | ---------------------------| ----------------------------------------------------|
 | [ec2_start.py](scripts/ec2_start.py)	             | Start all instances with a specific tag             |
 | [ec2_stop.py](scripts/ec2_stop.py)	             | Stop all instances with a specific tag              |
-| [ec2_ip_route53.py](scripts/ec2_ip_route53.py)     | Find EC2 public IP and change Route53 'A' record    |
+| [ec2_ip_route53.py](scripts/ec2_ip_route53.py)     | Get EC2 public IP and change Route53 'A' record    |
+| [ec2_start_and_route53.py](scripts/ec2_start_and_route53.py)     | Start EC2, get public IP and change Route53 'A' record    |
 
 ## Installation
 
