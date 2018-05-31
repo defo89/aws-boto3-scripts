@@ -46,6 +46,6 @@ zone_id = 'ZBDAAABBBCCC' # Hosted Zone ID, e.g. 'ZBDAAABBBCCC'
 # domain
 domain = 'technoff.eu' # Domain, e.g. technoff.eu
 
-❯ python ec2_ip_route53.py
+❯ ./ec2_ip_route53.py
 technoff.eu record was changed to: 52.51.120.202
 ```
